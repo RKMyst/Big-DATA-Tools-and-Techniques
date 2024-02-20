@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample - Superstore_Order.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Order ID" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Order Date" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Ship Date" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Ship Mode" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Customer ID" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Customer Name" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Segment" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Country/Region" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="City" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="State" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Postal Code" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Region" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Product ID" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Category" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Sub-Category" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Product Name" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Sales" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Quantity" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Discount" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+            <Field name="Profit" size="254" source="File: D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\Sample - Superstore_Order.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="54">D:\Education\George Brown College\T431\Semester 2\AASD4009_52350 Big Data Tools And Technologies II\Assignments\In-Class Assignment\cities.json</File>
+          <FormatSpecificOptions>
+            <SingleField>True</SingleField>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cities.json</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="JSON_Name" size="1073741823" source="JSON_Input: " type="V_WString" />
+            <Field name="JSON_ValueString" size="1073741823" source="JSON_Input: " type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="522" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="City" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="city" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Sales" selected="True" input="Left_" type="Double" size="8" />
+                <SelectField field="Left_Quantity" selected="True" input="Left_" type="Int16" size="2" />
+                <SelectField field="Left_Discount" selected="True" input="Left_" type="Double" size="8" />
+                <SelectField field="Left_Profit" selected="True" input="Left_" type="Double" size="8" />
+                <SelectField field="Right_city" selected="True" rename="Right_city" input="Right_" />
+                <SelectField field="Right_state" selected="True" rename="Right_state" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="618" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="City" action="GroupBy" rename="City" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+            <SummarizeField field="Quantity" action="Sum" rename="Sum_Quantity" />
+            <SummarizeField field="Discount" action="Sum" rename="Sum_Discount" />
+            <SummarizeField field="Profit" action="Sum" rename="Sum_Profit" />
+            <SummarizeField field="Category" action="Mode" rename="Mode_Category" />
+            <SummarizeField field="Sub-Category" action="Mode" rename="Mode_Sub-Category" />
+            <SummarizeField field="Product Name" action="Mode" rename="Mode_Product Name" />
+            <SummarizeField field="Customer Name" action="Mode" rename="Mode_Customer Name" />
+            <SummarizeField field="population" action="Mode" rename="Mode_population" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="150" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>JSON_Name</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>JSON_Name</RootName>
+          <Delimeters value="." />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="JSON_Name" selected="False" />
+            <SelectField field="JSON_Name1" selected="True" />
+            <SelectField field="JSON_Name2" selected="True" />
+            <SelectField field="JSON_ValueString" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="318" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="JSON_Name1" />
+          </GroupFields>
+          <HeaderField field="JSON_Name2" />
+          <DataField field="JSON_ValueString" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from JSON_Name" name="JSON_Name1" size="1073741823" source="CrossTab:Group:Concat:" type="V_WString" />
+            <Field name="city" size="2048" source="CrossTab:Header:JSON_Name2:city:Concat:" type="V_WString" />
+            <Field name="growth_from_2000_to_2013" size="2048" source="CrossTab:Header:JSON_Name2:growth_from_2000_to_2013:Concat:" type="V_WString" />
+            <Field name="latitude" size="2048" source="CrossTab:Header:JSON_Name2:latitude:Concat:" type="V_WString" />
+            <Field name="longitude" size="2048" source="CrossTab:Header:JSON_Name2:longitude:Concat:" type="V_WString" />
+            <Field name="population" size="2048" source="CrossTab:Header:JSON_Name2:population:Concat:" type="V_WString" />
+            <Field name="rank" size="2048" source="CrossTab:Header:JSON_Name2:rank:Concat:" type="V_WString" />
+            <Field name="state" size="2048" source="CrossTab:Header:JSON_Name2:state:Concat:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="JSON_Name1" selected="False" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="state" selected="True" />
+            <SelectField field="rank" selected="True" />
+            <SelectField field="population" selected="True" />
+            <SelectField field="longitude" selected="True" />
+            <SelectField field="latitude" selected="True" />
+            <SelectField field="growth_from_2000_to_2013" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="714" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Mode_population" selected="True" rename="Population" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="822" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pingPat\AppData\Local\Temp\Engine_28212_1afdcb54cac7384a8a8cd529d14dcdf7_\Engine_28212_1ee32c04870c4647be6519a6968c81fe~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="822" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:datasource1|||superstore-group-city</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>0</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:datasource1
+Query=superstore-group-city</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>superstore-join-workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="48411f88-cbcd-47cf-b0c9-57bdbebc0dd6" />
+      <Telemetry>
+        <PreviousWorkflowId value="e70f1fbd-6523-45e8-8872-58db42a3c5d1" />
+        <OriginWorkflowId value="e70f1fbd-6523-45e8-8872-58db42a3c5d1" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
